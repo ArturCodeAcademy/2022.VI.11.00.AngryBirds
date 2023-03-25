@@ -177,9 +177,7 @@ LineRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Positions:
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 3.96, z: 0}
+  m_Positions: []
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -242,7 +240,7 @@ LineRenderer:
     textureMode: 0
     shadowBias: 0.5
     generateLightingData: 0
-  m_UseWorldSpace: 1
+  m_UseWorldSpace: 0
   m_Loop: 0
 --- !u!114 &7006908464218643169
 MonoBehaviour:
@@ -257,11 +255,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _birdPrefabsPool: []
-  _maxDistanceFromCatapult: 0
-  _impulse: 0
-  _offset: {x: 0, y: 0, z: 0}
-  _distanceInQueue: 0
-  _aimLength: 0
+  _maxDistanceFromCatapult: 2
+  _impulse: 25
+  _offset: {x: -0.72, y: -3, z: 0}
+  _distanceInQueue: 1
+  _aimLength: 1.5
 --- !u!1 &7006908464993314967
 GameObject:
   m_ObjectHideFlags: 0

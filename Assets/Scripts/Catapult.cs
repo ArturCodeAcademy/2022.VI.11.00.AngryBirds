@@ -69,6 +69,7 @@ public class Catapult : MonoBehaviour
         if (!_currentBird.TryGetComponent(out Rigidbody2D rigidbody))
             rigidbody = _currentBird.AddComponent<Rigidbody2D>();
         rigidbody.gravityScale = 1;
+        rigidbody.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
         rigidbody.AddForce(direction.normalized * _impulse * force, ForceMode2D.Impulse);
     }
 

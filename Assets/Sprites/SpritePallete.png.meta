@@ -2353,7 +2353,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SpritePallete_70: 495233033
+      SpritePallete_77: 2011769825
       SpritePallete_82: 138646204
       SpritePallete_72: 204529151
       SpritePallete_12: 1707125033
@@ -2454,9 +2454,9 @@ TextureImporter:
       SpritePallete_39: -72451882
       SpritePallete_64: -1389937369
       SpritePallete_66: -925826537
-      SpritePallete_101: -154553222
-      SpritePallete_77: 2011769825
       SpritePallete_44: -1813193197
+      SpritePallete_101: -154553222
+      SpritePallete_70: 495233033
       SpritePallete_0: -1578319923
       SpritePallete_41: -1044593535
   spritePackingTag: 
