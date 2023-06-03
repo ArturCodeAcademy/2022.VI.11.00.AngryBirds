@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 5310696344505790120}
   - component: {fileID: 5310696344505790135}
   - component: {fileID: 5310696344505790134}
+  - component: {fileID: -6934998413106367288}
+  - component: {fileID: 1067232338078472539}
+  - component: {fileID: -4032458173700137456}
   m_Layer: 0
   m_Name: Stick
   m_TagString: Untagged
@@ -133,3 +136,46 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-6934998413106367288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5310696344505790123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5246f3133017324f990029081d41626, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnHealthEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  _maxHealth: 5
+--- !u!114 &1067232338078472539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5310696344505790123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a26a85d8c6ed18340b3e0ae798975713, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _minDamage: 5
+  _velocityMultiplier: 0.5
+--- !u!114 &-4032458173700137456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5310696344505790123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a40af26e120945f4fad1d7d5c744a514, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _destroyEffect: {fileID: 5077802676640459929, guid: 8ea9dce74364a04479b23c22e1fad2ec, type: 3}
